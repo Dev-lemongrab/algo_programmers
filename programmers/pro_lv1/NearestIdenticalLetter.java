@@ -1,11 +1,9 @@
-package test;
+package pro_lv1;
 
-import java.util.ArrayList;
 import java.util.HashMap;
 
-public class test {
-	
-	
+public class NearestIdenticalLetter {
+
 	public static void main(String[] args) {
 		String s = "bbbb";
 		
@@ -33,9 +31,7 @@ public class test {
 				answer[i] = -1;
 				hs.put(x, i);
 			}
-		}
-		
+		}	
 		return answer;
 	}
-	
 }
